@@ -1,8 +1,8 @@
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: #F4D8A3 url('../images/background.jpg') no-repeat fixed center; 
-  background-size: 100%;
+  background: #f5ddab !important;  // #F2C986
 }
 
 a {
@@ -31,7 +31,7 @@ a {
 .wide-text-spacer
 {
 	float: left;
-	width: 900px;
+	width: 370px;
 }
 
 .top-text-row
@@ -131,9 +131,29 @@ div.chooseyourfate > div.fatebutton:hover
 	font-weight: 100;
 }
 
+.commonlogo
+{
+	position:relative;
+	bottom: 1px;
+}
+
+.rlogo
+{
+position:relative;
+	bottom: 4px;
+	
+}
+
 .fatebutton
 {
 
+}
+
+.backgroundimage
+{
+	top: 0px;
+	position: absolute;
+	z-index:-1;
 }
 
 .timeleft
