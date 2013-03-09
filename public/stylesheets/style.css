@@ -1,8 +1,141 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #F4D8A3 url('../images/background.jpg') no-repeat fixed center; 
+  background-size: 100%;
 }
 
 a {
   color: #00B7FF;
+}
+
+.container
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.left-hr-spacer, .right-hr-spacer
+{
+	float: left;
+	width: 100px;
+}
+
+.text-spacer
+{
+	float: left;
+	width: 170px;
+	text-align: center;
+}
+
+.wide-text-spacer
+{
+	float: left;
+	width: 900px;
+}
+
+.top-text-row
+{
+	padding-bottom: 15px;
+}
+
+.bottom-text-row
+{
+	padding-top: 15px;
+}
+
+.text-row
+{
+	width: 370px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Libre Baskerville;
+	color: #795211;
+	font-size: 14px;
+}
+
+.daysleft
+{
+	font-family: Libre Baskerville;
+	font-size: 288px;
+	line-height: 1.1em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 370px;
+	text-align: center;
+	font-weight: bold;
+	color: #795211;
+}
+
+.projectby
+{
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.chooseyourfate
+{
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 40px;
+}
+
+div.chooseyourfate > div.fatebutton
+{
+	margin: 10px 10px 10px 10px;
+	width: 100px;
+	height: 1.8em;
+	vertical-align: middle;
+	padding-top: 0.5em;
+	color: #999;
+}
+
+div.chooseyourfate > div.fatebutton:hover
+{
+	color: #795211;
+}
+
+.pushedleftplus
+{
+    position: relative;
+    top: 0.8em;
+    left: -0.8em;
+    font-weight: bold;
+}
+
+.boldnumbers
+{
+	font-weight: bold;
+	font-size: 42px;
+}
+
+.smallcaps
+{
+	font-style: small-caps;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.itstheweekend
+{
+	color: #795211;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	font-size: 30px;
+	line-height: 0.9em;
+	padding-bottom: 40px;
+	font-weight: 100;
+}
+
+.fatebutton
+{
+
+}
+
+.timeleft
+{
 }
