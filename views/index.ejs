@@ -10,9 +10,22 @@
 	<script src="/javascripts/jquery-1.9.1.min.js" ></script>
 	<script src="/javascripts/bootstrap.js" ></script>
 	<script src="/javascripts/weekendsleft.js" ></script>
-	<script type="text/javascript">var switchTo5x=true;</script>
-	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-	<script type="text/javascript">stLight.options({publisher: "ce04d37d-2031-45e7-beec-ffa31a36ccf1", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "ce04d37d-2031-45e7-beec-ffa31a36ccf1", doNotHash: true, doNotCopy: true, hashAddressBar: true});</script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39152319-1']);
+  _gaq.push(['_setDomainName', 'weekendsleft.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
   </head>
   <body>
 
@@ -32,7 +45,7 @@
 		</div>
 		<div class="text-row">
 			<div class="wide-text-spacer">
-				<img src="./images/weekendsleft.png" alt="-">
+				<img src="./images/1weekendsleft.png" alt="Weekends Left">
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -65,21 +78,17 @@
 		</div>
 
     	<div class="chooseyourfate">
-			<div class="btn fatebutton">
+			<div id="spendbutton" class="btn fatebutton">
 				Spend wisely
 			</div>
-			<div class="btn fatebutton">
+			<div id="squanderbutton"  class="btn fatebutton">
 				Squander
 			</div>
     	</div>
 		
 		<div class="sharebuttons">
-			<span class='st_fblike_hcount' displayText='Facebook Like'></span>
-			<span class='st_fbsend_hcount' displayText='Facebook Send'></span>
-			<span class='st_facebook_hcount' displayText='Facebook'></span>
 			<span class='st_twitter_hcount' displayText='Tweet'></span>
-			<span class='st_linkedin_hcount' displayText='LinkedIn'></span>
-			<span class='st_email_hcount' displayText='Email'></span>
+			<span class='st_facebook_hcount' displayText='Facebook'></span>
 		</div>
 		<div class="projectby">
 			a weekend project by <a href="http://commonv.com"><img class="commonlogo" src="./images/commonlogo.png" alt="common ventures"></a> together with <a href="http://rkroon.net"><img alt="rkroon.net" class="rlogo" src="./images/rlogo.png"></a>
