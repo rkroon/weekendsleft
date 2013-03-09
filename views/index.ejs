@@ -7,6 +7,7 @@
     <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
     <link rel='stylesheet' href='/stylesheets/bootstrap.responsive.min.css' />
 	<script src="/javascripts/moment.min.js" ></script>
+	<script src="/javascripts/jquery-1.9.1.min.js" ></script>
 	<script src="/javascripts/bootstrap.js" ></script>
 	<script src="/javascripts/weekendsleft.js" ></script>
   </head>
@@ -46,15 +47,15 @@
 		</div>
 
     	<div class="daysleft">
-    		43
+    		??
     	</div>
 
-    	<div class="itstheweekend">
+    	<div class="itstheweekend hide">
 			<div class="pushedleftplus">
 				+
 			</div>
 			<div class="timeleft">
-				<span class="boldnumbers">36</span><span class="smallcaps">HRS</span>&nbsp;<span class="boldnumbers">28</span><span class="smallcaps">MINS</span><br/>
+				<span class="boldnumbers" id="hoursleft"></span><br/>
 				remaining<br/>
 				of this weekend
 			</div>
@@ -70,7 +71,7 @@
     	</div>
 
     	<div class="projectby">
-			a weekend project by <img class="commonlogo" src="./images/commonlogo.png"> together with <img class="rlogo" src="./images/rlogo.png">
+			a weekend project by <a href="http://commonv.com"><img class="commonlogo" src="./images/commonlogo.png" alt="common ventures"></a> together with <a href="http://rkroon.net"><img alt="rkroon.net" class="rlogo" src="./images/rlogo.png"></a>
     	</div>
 
   </body>
