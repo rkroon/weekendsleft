@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'moment' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose read json /Users/nodejitsu/Node/gitweekendsleft/package.json
+5 verbose read json /Users/nodejitsu/Node/gitweekendsleft/node_modules/ejs/package.json
+6 verbose read json /Users/nodejitsu/Node/gitweekendsleft/node_modules/express/package.json
+7 verbose from cache /Users/nodejitsu/Node/gitweekendsleft/package.json
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'moment', null ]
+10 verbose cache add name=undefined spec="moment" args=["moment",null]
+11 verbose parsed url { pathname: 'moment', path: 'moment', href: 'moment' }
+12 silly lockFile b56def36-moment moment
+13 verbose lock moment /Users/nodejitsu/.npm/b56def36-moment.lock
+14 silly lockFile b56def36-moment moment
+15 verbose addNamed [ 'moment', '' ]
+16 verbose addNamed [ null, '' ]
+17 silly lockFile 42aa250a-moment moment@
+18 verbose lock moment@ /Users/nodejitsu/.npm/42aa250a-moment.lock
+19 silly lockFile 42aa250a-moment moment@
+20 error Error: EACCES, open '/Users/nodejitsu/.npm/42aa250a-moment.lock'
+20 error  { [Error: EACCES, open '/Users/nodejitsu/.npm/42aa250a-moment.lock']
+20 error   errno: 3,
+20 error   code: 'EACCES',
+20 error   path: '/Users/nodejitsu/.npm/42aa250a-moment.lock' }
+21 error Please try running this command again as root/Administrator.
+22 error System Darwin 10.8.0
+23 error command "node" "/usr/local/bin/npm" "install" "moment"
+24 error cwd /Users/nodejitsu/Node/gitweekendsleft
+25 error node -v v0.8.18
+26 error npm -v 1.2.2
+27 error path /Users/nodejitsu/.npm/42aa250a-moment.lock
+28 error code EACCES
+29 error errno 3
+30 error stack Error: EACCES, open '/Users/nodejitsu/.npm/42aa250a-moment.lock'
+31 verbose exit [ 3, true ]

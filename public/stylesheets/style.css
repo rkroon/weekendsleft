@@ -2,7 +2,8 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: #f5ddab !important;  // #F2C986
+  background: #f5ddab !important;
+  overflow-x: hidden;
 }
 
 a {
