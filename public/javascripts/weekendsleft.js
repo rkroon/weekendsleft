@@ -16,20 +16,29 @@ function squanderNow()
 
 $('document').ready(function() 
 {
-$('.daysleft').html(52 - moment().endOf('day').subtract('1').format('w'));
+// This allows debugging of the time display/weekends left display
+var now = moment();
 
-var today = moment().endOf('day').subtract('1').format('dddd');
+var weekendsleft = 52 - moment(now).endOf('day').subtract('second','1').format('w');
+
+var today = moment(now).endOf('day').subtract('seconds','1').format('dddd');
 
 if(today == "Saturday")
 {
-	$('#hoursleft').html('about '+moment().endOf('day').add('days','1').fromNow(true));
+	var endOfWeekend = moment(now).endOf('day').add('days','1');
+	console.log(endOfWeekend);
+	$('#hoursleft').html('about '+endOfWeekend.from(now,true));
 	$('.itstheweekend').show();
 }
 else if(today == "Sunday")
 {
-	$('#hoursleft').html('about '+moment().endOf('day').fromNow(true));
-	$('.itstheweekend').show();			
+	weekendsleft = weekendsleft + 1;
+	var endOfWeekend = moment(now).endOf('day');
+	$('#hoursleft').html('about '+endOfWeekend.from(now,true));
+	$('.itstheweekend').show();		
 }
+
+$('.daysleft').html(weekendsleft);
 
 $('#spendbutton').bind ('click', spendNow);
 $('#squanderbutton').bind ('click', squanderNow);

@@ -159,8 +159,9 @@ position:relative;
 
 .sharebuttons
 {	
-	width: 215px;
+	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-bottom: 90px;
+	text-align: center;
 }
